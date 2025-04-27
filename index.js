@@ -40,7 +40,7 @@ require("./handler")(client);
 
 // ———————————————[Logging Into Client]———————————————
 const token = process.env["TOKEN"] || client.config.clienttoken;
-if (token === "") {
+if (token === "MTM2NTIyOTk1MTQwOTcxNzMyOA.GtgPCV._wr6ITyXABaFx3-pa3CU3ItC4y3GZyClzAygz0") {
    console.log(chalk.gray("—————————————————————————————————"));
    console.log(
       chalk.white("["),
